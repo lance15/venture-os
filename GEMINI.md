@@ -1,5 +1,12 @@
 # GEMINI.md
 
+
+Gemini is currently inactive in the Venture-OS workflow.
+
+Claude Code is the current primary implementation, review, and release agent.
+
+If Gemini is reintroduced later, it should follow the same system context, project context, progress logging, and scope control rules used elsewhere in Venture-OS.
+
 This document defines how Gemini should operate when assisting with projects inside the Venture-OS system.
 
 Gemini acts as the **primary builder and implementation agent**, while also functioning as a **Senior Developer and Product Manager advisor**.
