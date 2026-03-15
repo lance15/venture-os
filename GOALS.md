@@ -1,213 +1,276 @@
-# Founder Goals
+Goals
 
-This document defines the strategic objectives that guide all projects built within Venture-OS.
+This document defines the founder goals and strategic decision rules that should guide all work inside Venture-OS.
 
-All AI agents and collaborators should consider these goals when making technical or product decisions.
+All AI agents should treat this file as a core source of truth when making product, technical, and workflow recommendations.
 
 ---
 
-# Primary Objective
+# Primary Goal
 
-Achieve **financial freedom** by building a portfolio of revenue-generating digital products.
+Build a portfolio of digital products that creates **financial freedom**.
 
-Financial freedom means having enough recurring income from owned assets to remove dependence on traditional employment.
+Financial freedom means generating enough recurring income from owned digital assets to reduce or remove dependence on employment.
+
+The focus is on **ownership, revenue, and leverage**.
 
 ---
 
 # Core Strategy
 
-Instead of relying on a single large success, the strategy focuses on building **multiple smaller ventures**.
+The strategy is **not** to rely on one huge winner.
 
-Many successful digital products generate modest income individually but significant income collectively.
+The strategy is to build, test, improve, and accumulate multiple digital ventures.
 
-Target outcome:
+Many of these may be modest individually.
 
-Multiple projects generating approximately **£100–£500 per month each**.
+A successful portfolio can be built from projects generating around:
 
-As the portfolio grows, the combined revenue becomes substantial.
+- **£100–£500/month each** at the low end
+- more for the stronger winners
+
+This means small useful products matter.
 
 ---
 
-# Venture Approach
+# Portfolio Model
 
-Projects should generally fall into one of the following categories.
+Projects will generally fall into three categories.
 
-### Revenue Projects
-
-Products designed to generate income quickly.
+## 1. Revenue Projects
+Built to generate money as directly and quickly as possible.
 
 Examples:
+- micro SaaS
+- utility apps
+- automation tools
+- niche tools
+- lightweight paid products
 
-* mobile apps
-* SaaS tools
-* automation tools
-* micro-products
-
-These projects prioritise speed and practical monetisation.
+These should usually be simple, practical, and launchable fast.
 
 ---
 
-### Growth Experiments
-
-Projects that could scale significantly but require validation.
+## 2. Growth Experiments
+Built to test upside, attention, or viral potential.
 
 Examples:
+- AI influencer systems
+- consumer-facing viral tools
+- content-led products
+- experimental social products
 
-* AI influencer networks
-* viral consumer apps
-* content-driven platforms
-
-These experiments may fail but can occasionally produce outsized results.
+These may fail more often, but some may create outsized returns.
 
 ---
 
-### Long-Term Assets
-
-Projects that build intellectual property over time.
+## 3. Long-Term Assets
+Built to create durable value or intellectual property.
 
 Examples:
+- games
+- content ecosystems
+- software platforms
+- systems that can compound over time
 
-* games
-* content ecosystems
-* software platforms
-
-These may take longer but can produce durable value.
-
----
-
-# Development Philosophy
-
-### Launch Quickly
-
-A working product released to real users provides more information than extended planning.
-
-Early launches enable:
-
-* market validation
-* real user feedback
-* faster iteration
+These can take longer but may become more valuable assets.
 
 ---
 
-### Validate Demand
+# Strategic Filters
 
-Projects should be evaluated using real-world signals such as:
+All ideas and project decisions should be judged through the following filters.
 
-* user interest
-* community discussion
-* competitor demand
-* early usage metrics
+## Revenue Potential
+Can this realistically make money?
 
-Weak ideas should be abandoned quickly.
+Even modest revenue is acceptable if the effort-to-return ratio is strong.
 
 ---
 
-### Avoid Overengineering
+## Speed to Launch
+Can this be built and launched quickly enough to validate?
 
-Products should remain:
-
-* simple
-* maintainable
-* understandable
-
-Especially for early MVP stages.
-
-Infrastructure complexity should only be introduced when necessary.
+Long build times reduce learning speed and increase risk.
 
 ---
 
-### Solo Developer Constraint
+## Simplicity
+Can this be built and maintained by one developer using AI assistance?
 
-All systems should assume:
-
-* one primary developer
-* heavy use of AI assistance
-* limited maintenance capacity
-
-Architectures that require large teams should be avoided.
+If not, the idea or implementation should be simplified.
 
 ---
 
-# Technology Philosophy
+## Practical Distribution
+How will users actually discover the product?
 
-Technology should serve the business objective.
+Examples:
+- TikTok
+- Instagram
+- Reddit
+- SEO
+- app stores
+- communities
+- outbound or direct niche distribution
 
-Preferred characteristics:
-
-* fast to build
-* easy to maintain
-* widely supported
-* strong documentation
-
-Avoid technologies that add unnecessary operational overhead.
+A good product with no path to users is weak.
 
 ---
 
-# AI Collaboration Strategy
+## Maintainability
+Can this still be run, updated, and supported without creating a burden?
 
-AI tools act as specialised collaborators.
+Projects with high maintenance overhead should be questioned early.
 
-### ChatGPT
+---
 
+# Founder Constraints
+
+All systems should assume the following:
+
+- one primary founder
+- AI-assisted development
+- moderate Python experience
+- limited experience shipping and maintaining full products
+- limited appetite for unnecessary complexity
+- limited benefit from overengineered systems
+
+This means recommendations should favor:
+- clarity
+- simplicity
+- speed
+- reliability
+- easy-to-understand workflows
+
+---
+
+# Product Philosophy
+
+## Launch Before Perfect
+A real product with real feedback beats a polished concept with no users.
+
+---
+
+## Validate With Reality
+Ideas should be tested against:
+- real user pain
+- market demand
+- competitive landscape
+- willingness to pay
+- early user behaviour
+
+Weak ideas should be killed quickly.
+
+---
+
+## Keep MVPs Tight
+MVPs should include only what is needed to:
+- solve the core problem
+- demonstrate value
+- validate demand
+- enable monetisation where possible
+
+---
+
+## Improve Through Iteration
+Do not try to build the final version first.
+
+Build:
+1. working version
+2. usable version
+3. improved version
+4. monetised version
+5. scaled version
+
+Only move to the next stage when justified.
+
+---
+
+# AI Tool Roles
+
+## ChatGPT
 Used for:
+- venture analysis
+- execution planning
+- system design
+- prompt creation
+- portfolio thinking
+- strategic decisions
 
-* strategy
-* venture analysis
-* planning
-* prompt design
-* system architecture
-
----
-
-### Gemini
-
+## Gemini
 Used for:
+- project scaffolding
+- fast implementation
+- MVP building
+- feature generation
+- simple build execution
 
-* project scaffolding
-* rapid implementation
-* feature development
-
----
-
-### Claude
-
+## Claude
 Used for:
+- code review
+- debugging
+- refactoring
+- security review
+- product sanity checks
+- release readiness checks
 
-* code review
-* debugging
-* refactoring
-* risk reduction
-
----
-
-# Success Criteria
-
-Projects should be evaluated using several dimensions.
-
-Examples include:
-
-* revenue generation
-* user engagement
-* scalability potential
-* development efficiency
-* maintenance cost
-
-Projects that consistently score poorly should be paused or abandoned.
+These roles should stay distinct unless there is a good reason to overlap them.
 
 ---
 
-# Long-Term Vision
+# Decision Rules for AI Agents
 
-Over time, the portfolio should evolve into a **studio of independent digital products**.
+When choosing between options, AI agents should prefer:
 
-This portfolio may include:
+- faster path to launch
+- simpler implementation
+- cleaner user journey
+- stronger monetisation path
+- lower maintenance burden
+- easier solo-dev execution
 
-* mobile apps
-* AI tools
-* games
-* automation services
-* monetised content ecosystems
+Agents should challenge ideas or implementations that are:
+- too broad
+- too complex
+- weakly monetised
+- difficult to distribute
+- hard to maintain
 
-Some projects may eventually be sold, spun off, or expanded into larger businesses.
+---
 
-The ultimate aim is to create **financial independence through ownership of scalable digital assets**.
+# What Success Looks Like
+
+Success is not:
+- complexity
+- novelty for its own sake
+- shipping features endlessly
+- building impressive but useless systems
+
+Success is:
+- useful products
+- live products
+- revenue-generating products
+- repeatable workflows
+- a growing portfolio of owned digital assets
+
+---
+
+# Long-Term Direction
+
+Over time, the portfolio may include:
+- mobile apps
+- games
+- SaaS products
+- creator tools
+- automation tools
+- monetised social systems
+- other scalable digital products
+
+Some may stay small and cash-flow reliably.
+Some may scale hard.
+Some may be sold.
+
+All work should support the long-term objective:
+
+**financial freedom through ownership of digital products and systems**.
