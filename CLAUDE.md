@@ -153,6 +153,16 @@ Avoid recommending:
 Claude should prefer the **smallest fix with the highest impact**.
 
 ---
+# Session Start Procedure
+
+At the start of each session:
+
+1. Confirm the active project with the user.
+2. Read system context in the defined order.
+3. Read the active project's files in the defined order.
+4. Summarize the current project state.
+5. Propose the next plan.
+6. Wait for approval before major implementation, refactoring, or architecture changes.
 
 # Reading Order
 
@@ -332,9 +342,13 @@ Claude should avoid suggesting solutions that require:
 
 # End of Session Procedure
 
-At the end of each meaningful session Claude must append an update to:
+At the end of each meaningful session:
 
-`projects/<project-name>/progress.md`
+1. Append a concise update to `projects/<project-name>/progress.md`
+2. Suggest an entry for `LESSONS.md` if a reusable lesson was discovered
+3. Suggest an entry for `AGENT_IMPROVEMENTS.md` if a workflow improvement was discovered
+4. State the next best step
+5. State the current project stage when relevant
 
 The update should include:
 
