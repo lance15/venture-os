@@ -2,6 +2,8 @@
 
 This file stores improvements to how AI agents should operate inside Venture-OS.
 
+This file is append-only unless the founder explicitly requests cleanup or restructuring.
+
 Its purpose is to make Gemini and Claude more effective over time by capturing:
 
 - workflow improvements
