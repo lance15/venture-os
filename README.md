@@ -51,7 +51,7 @@ Venture-OS follows a simple agent structure:
 The Generator builds.
 
 Primary tool:
-- Gemini
+- Claude
 
 Typical responsibilities:
 - scaffolding projects
