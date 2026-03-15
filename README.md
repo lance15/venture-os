@@ -36,6 +36,12 @@ The system is designed to support:
 The core business goal is **financial freedom** through a portfolio of products rather than dependence on a single big success.
 
 ---
+# Source of Truth
+
+Project files inside Venture-OS are the source of truth for product intent and build direction.
+Actual product repositories are the source of truth for implementation.
+
+---
 
 # System Model
 
