@@ -2,6 +2,8 @@
 
 This file stores reusable lessons discovered while building, reviewing, testing, deploying, and maintaining projects inside Venture-OS.
 
+This file is append-only unless the founder explicitly requests cleanup or restructuring.
+
 Its purpose is to stop repeated mistakes, improve future decisions, and preserve useful knowledge across projects.
 
 This is a **shared operational memory file** for the founder, Gemini, and Claude.
