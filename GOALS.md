@@ -13,6 +13,7 @@ Build a portfolio of digital products that creates **financial freedom**.
 Financial freedom means generating enough recurring income from owned digital assets to reduce or remove dependence on employment.
 
 The focus is on **ownership, revenue, and leverage**.
+Do not continue building projects that show weak demand, weak monetisation, or poor effort-to-return ratio without a clear strategic reason.
 
 ---
 
