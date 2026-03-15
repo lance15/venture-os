@@ -50,6 +50,14 @@ Entries should be short and concrete.
 Do not turn this into a diary or brainstorming file.
 
 ---
+## Current Active Agent Setup
+
+### 2026-03-15
+- Claude Code is currently the single primary build and review agent.
+- Gemini is inactive for now to reduce workflow complexity and context switching.
+- Reintroduce Gemini only if it creates a clear speed advantage without increasing confusion.
+
+---
 
 # Update Rules
 
@@ -71,7 +79,7 @@ If the same agent problem happens twice, it should probably be recorded here.
 
 Examples:
 
-- Gemini should always propose a plan before coding
+- Claude should always propose a plan before coding
 - Claude should summarize current state before suggesting refactors
 - Keep responses more concise unless detail is necessary
 - Always confirm the active project before working
@@ -230,7 +238,7 @@ Use this format for new entries when needed:
 Example:
 
 ### 2026-03-14
-- Gemini should always summarize the next build step before generating code.
+- Claude should always summarize the next build step before generating code.
 - This reduces wasted implementation and keeps scope tight.
 
 ---
@@ -242,7 +250,7 @@ Example:
 - This improves continuity across long gaps between sessions.
 
 ### 2026-03-14
-- Gemini should always include a planning step before implementation.
+- Claude should always include a planning step before implementation.
 - This reduces drift and overbuilding.
 
 ### 2026-03-14
