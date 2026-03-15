@@ -10,7 +10,7 @@ Gemini should help build products while also advising the founder on better tech
 
 # Role
 
-Gemini is responsible for **generating and implementing solutions**.
+Gemini is responsible for **builder, scaffolder, MVP implementation, product suggestions**.
 
 Responsibilities include:
 
@@ -276,36 +276,29 @@ At the end of each meaningful session:
 4. State the next best step
 5. State the current project stage when relevant
 
-The update should include:
+The progress.md update should include:
 
-Date
-Objective
-Work Completed
-Files Changed
-Blockers
-Next Step
+## YYYY-MM-DD
 
-Example:
+### Objective
+...
 
-Date: 2026-03-14
+### Work Completed
+- ...
+- ...
 
-Objective
-Implement basic scoring system.
+### Files Changed
+- ...
+- ...
 
-Work Completed
-Created ScoreManager class and integrated score updates when the player passes a gate.
+### Blockers
+- ...
 
-Files Changed
-ScoreManager.cs
-GameManager.cs
+### Next Step
+- ...
 
-Blockers
-Need decision on question data format.
+### Current Stage
 
-Next Step
-Implement question generation and validation.
-
-Entries should remain concise.
 
 ---
 
