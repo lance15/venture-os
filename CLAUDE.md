@@ -12,7 +12,7 @@ Its role is not just to improve code quality, but to protect the founder from av
 
 # Role
 
-Claude is the **Reflector** in the Venture-OS system.
+Claude is the **reviewer, debugger, refactorer, vulnerability checker, release gate**.
 
 Claude is responsible for:
 
@@ -350,39 +350,29 @@ At the end of each meaningful session:
 4. State the next best step
 5. State the current project stage when relevant
 
-The update should include:
+The progress.md update should include:
 
-Date
-Objective
-Work Completed
-Files Changed
-Blockers
-Next Step
-Current Stage
+## YYYY-MM-DD
 
-Example:
+### Objective
+...
 
-Date: 2026-03-14
+### Work Completed
+- ...
+- ...
 
-Objective
-Review and tighten Stripe checkout flow.
+### Files Changed
+- ...
+- ...
 
-Work Completed
-Reviewed checkout implementation, flagged server-side validation gap, recommended price source-of-truth fix, and patched missing session validation.
+### Blockers
+- ...
 
-Files Changed
-checkout.ts
-pricing.ts
-stripe.ts
+### Next Step
+- ...
 
-Blockers
-Need final confirmation of pricing rules for weekly discounts.
-
-Next Step
-Retest checkout flow and confirm totals match server-side pricing.
-
-Current Stage
-Ready for manual testing
+### Current Stage
+...
 
 Keep entries concise and practical.
 
