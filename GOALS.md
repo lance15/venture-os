@@ -199,22 +199,23 @@ Used for:
 - portfolio thinking
 - strategic decisions
 
-## Gemini
+## Claude
 Used for:
 - project scaffolding
 - fast implementation
 - MVP building
 - feature generation
 - simple build execution
-
-## Claude
-Used for:
 - code review
 - debugging
 - refactoring
 - security review
 - product sanity checks
 - release readiness checks
+
+## Gemini
+Currently optional and inactive.
+May be reintroduced later for faster implementation or parallel experimentation if needed.
 
 These roles should stay distinct unless there is a good reason to overlap them.
 
